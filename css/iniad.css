@@ -56,3 +56,36 @@ h3 {
   color : #ffffff;
   text-decoration : none;
 }
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.sidebar {
+  width: 120px;
+  background-color: #fbfbfb;
+  box-sizing: border-box;
+  border: 1px solid #17194c;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.flex-content {
+  flex-grow: 1;
+  box-sizing: border-box;
+  border: 1px solid #17194c;
+}
+
